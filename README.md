@@ -45,3 +45,16 @@ Use Docker Compose to spin up PostgreSQL and Adminer:
 
 sudo docker compose up -d
 
+Docker Setup
+To run the PostgreSQL and Adminer services using Docker, use the following steps:
+
+Ensure Docker and Docker Compose are installed on your system.
+Run the following command to start the containers:
+sudo docker compose up -d
+
+This will set up PostgreSQL on port 5432 and Adminer on port 8080 as per the configurations in the docker-compose.yml file.
+
+Once the services are up, you can access Adminer to view your database at:
+http://localhost:8080
+
+
